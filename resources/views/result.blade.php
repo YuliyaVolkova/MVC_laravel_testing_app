@@ -38,7 +38,6 @@
                 <?php $counter = 1; ?>
                 @if($results->isNotEmpty())
                     @foreach($results as $item)
-                    <?php dd($item->wrong_answers); ?>
                         @if($item->wrong_answers === null)
                         <tr class="info">
                             <td>{{$counter++}}</td>
