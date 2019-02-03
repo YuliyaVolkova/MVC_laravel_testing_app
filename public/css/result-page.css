@@ -1,0 +1,17 @@
+tr.info td{
+    font-weight: 700;
+}
+td, th{
+    text-align: center;
+}
+h1{
+    margin-bottom: 35px;
+}
+.err-num:after{
+    display: inline-block;
+    content: ',';
+    vertical-align: middle;
+}
+.err-num:last-child:after{
+    display: none;
+}
